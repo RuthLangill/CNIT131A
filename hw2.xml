@@ -2,28 +2,28 @@
 <?xml-stylesheet type="text/css" href="css/hw2.css"?>
 <library>
 <!--"Books are being donated by instructors and publishers"-->
-<book>
-    <title pages="229">Introduction to HTML</title>
+<book pages="229">
+    <title>Introduction to HTML</title>
     <author>Joseph Gardner</author>
     <publisher>Press &#169;</publisher>
 </book>
-<book>
-    <title pages="104">Networking Infrastructure</title>
+<book pages="104">
+    <title>Networking Infrastructure</title>
     <author>Adam Douglas &amp; Janice Dall</author>
     <publisher>Cengage; &#169;</publisher>
 </book>
-<book>
-    <title pages="154">Soft Skills in IT</title>
+<book pages="154">
+    <title>Soft Skills in IT</title>
     <author>Mark Hunter</author>
     <publisher>Bolding Publisher &#169;</publisher>
 </book>
-<book>
-    <title pages="427">Network Security</title>
+<book pages="427">
+    <title>Network Security</title>
     <author>Jennifer Starter &amp; Yuri Adantov	</author>
     <publisher>Wrox &#169;</publisher>
 </book>
-<book>
-    <title pages="389">XML &amp; JSON</title>
+<book pages="389">
+    <title>XML &amp; JSON</title>
     <author>Stuart Bell</author>
     <publisher>Cengage; &#169;</publisher>
 </book>
