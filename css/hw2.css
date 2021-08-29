@@ -2,16 +2,18 @@ library {
     padding-top: 40px;
     margin-top: 40px;
     background-color: lightgray;
-    text-align: center;
 }
 title {
     font-size: 25px;
     font-weight: bold;
     color: red;
 }
-book, title, author, publisher {
-    display : block;
+book {
+    display : grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    align-items: center;
+    padding: 6px;
 }
 book:nth-child(odd) {
-    background: lightblue;
+    background-color: lightblue;
 }
