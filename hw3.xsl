@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
@@ -35,10 +35,10 @@
   <h1> List of Clients </h1>
   </heading>
     <table>
-    <th>Name</th>
-    <th>Phone</th>
-    <th>Email</th>
-    <th>Account Total</th>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Account Total</th>
     <xsl:for-each select="Accounts/Client">
     <xsl:sort select="Name/Last"/>
        <tr>
