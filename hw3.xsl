@@ -16,7 +16,7 @@
     }
     table {
         border: 1px solid blue;
-        width: 100%;
+        width: 100&#37;;
     }
     td {
         text-align: center;
@@ -53,7 +53,7 @@
           <xsl:value-of select="Account_Total"/></td>
         </xsl:when>
         <xsl:otherwise>
-          <td class="account">$ <xsl:value-of select="Account_Total"/></td>
+          <td class="account">&#36; <xsl:value-of select="Account_Total"/></td>
         </xsl:otherwise>
       </xsl:choose>
 
