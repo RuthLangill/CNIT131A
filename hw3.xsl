@@ -49,7 +49,7 @@
 
           <xsl:choose>
         <xsl:when test="Account_Total &lt;= 80000">
-          <td class="account" class="lessThanAccount">$
+          <td class="account lessThanAccount">$
           <xsl:value-of select="Account_Total"/></td>
         </xsl:when>
         <xsl:otherwise>
