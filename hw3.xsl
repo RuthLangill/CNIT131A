@@ -25,7 +25,7 @@
     .account {
         text-align:right;
     }
-    #lessThanAccount {
+    .lessThanAccount {
         color:#FF0000; font-weight:bold;
     }
     </style>
@@ -49,7 +49,7 @@
 
           <xsl:choose>
         <xsl:when test="Account_Total &lt;= 80000">
-          <td class="account" id="lessThanAccount">$
+          <td class="account" class="lessThanAccount">$
           <xsl:value-of select="Account_Total"/></td>
         </xsl:when>
         <xsl:otherwise>
