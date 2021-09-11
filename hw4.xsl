@@ -10,6 +10,8 @@
 <title>ABC Financial Startup</title>
 <style>
 body {
+  padding-top: 40px;
+  margin-top: 40px;
   text-align: center;
   font-size: 15px;
 }
@@ -33,10 +35,9 @@ body {
     </xsl:choose>
 </xsl:for-each>
 </p>
-<p>
-We have had 
- <xsl:value-of select="count(//Client[Years>=7]/Years)"/>
- clients for more than 7 years
+<p> 
+ <xsl:value-of select="count(//Client[Years&gt;=7]/Years)"/>
+ of our clients have been with us for more than 7 years
 </p>
 
 </body>
