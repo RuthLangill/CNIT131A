@@ -10,15 +10,34 @@
 <title>ABC Financial Startup</title>
 <style>
 body {
-  padding-top: 40px;
-  margin-top: 40px;
+  padding-top: 30px;
+  margin-top: 30px;
   text-align: center;
   font-size: 15px;
+  color: #1b9cf4;
+  background-color: #f1f9fa;
+}
+img {
+  padding: 15px;
+  border: 2px solid #c0c8cc;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 70px;
+  padding: 15px;
+  margin: 10px;
+  color: ##5db7f3;
+}
+p {
+  padding: 10px;
+  font-size: 15px
 }
 </style>
 </head>
 <body>
+<hr/>
 <h1>ABC Financial Startup</h1>
+<hr/>
 <img src="images/financialstartup.jpg"/>
 <p> We are a very young financial management company and we are proud of our clients. 
 </p>
