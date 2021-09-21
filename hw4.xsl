@@ -12,25 +12,33 @@
 body {
   padding-top: 30px;
   margin-top: 30px;
-  text-align: center;
   font-size: 15px;
   color: #1b9cf4;
   background-color: #f1f9fa;
 }
 img {
+  display: block;
   padding: 15px;
   border: 2px solid #c0c8cc;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1 {
   font-size: 70px;
   padding: 15px;
   margin: 10px;
   color: ##5db7f3;
+  text-align: center;
 }
 p {
-  padding: 10px;
   font-size: 15px
+  padding-left: 100px;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+hr { 
+  border: 1px solid #c0c8cc;
 }
 </style>
 </head>
@@ -38,7 +46,7 @@ p {
 <hr/>
 <h1>ABC Financial Startup</h1>
 <hr/>
-<img src="images/financialstartup.jpg"/>
+<img src="images/financialstartup.jpg" alt="high five stock market arrow going up"/>
 <p> We are a very young financial management company and we are proud of our clients. 
 </p>
 <p> We started with 1 client a little bit more than 10 years ago, now we have 
