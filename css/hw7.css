@@ -1,0 +1,12 @@
+@namespace w url("http://www.gov.org/westcoaststates");
+
+
+state {
+  display: block;
+  background-color: blueviolet;
+  color: azure;
+  font-weight: bold;
+}
+w|state {
+  background-color: green;
+}
