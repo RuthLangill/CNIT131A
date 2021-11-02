@@ -1,3 +1,4 @@
+@namespace url("http://www.gov.org/eastcoaststates");
 @namespace w url("http://www.gov.org/westcoaststates");
 
 
@@ -8,5 +9,8 @@ state {
   font-weight: bold;
 }
 w|state {
+  display: block;
   background-color: green;
+  color: azure;
+  font-weight: bold;
 }
