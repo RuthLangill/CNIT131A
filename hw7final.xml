@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="css/hw7.css"?>
+<?xml-stylesheet type="text/css" href="css/hw7.css"?>
 
 <states xmlns="http://www.gov.org/eastcoaststates"
 xmlns:w="http://www.gov.org/westcoaststates">
