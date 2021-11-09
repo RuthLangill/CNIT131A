@@ -1,0 +1,34 @@
+
+body{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #d6e2ec;
+  font-family: 'Montserrat', sans-serif;background-color: #051322;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #636E73;
+}
+
+a:hover{
+  color: #d8dfe0;
+}
+
+h1{
+  font-size: 45px;
+  font-family: 'Caveat', cursive;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+p {
+  padding: 30px;
+}
