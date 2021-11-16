@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" width="500px" height="250px">
+<rect x="300" y="30" fill="yellow" width="170px" height="120px" stroke="blue" stroke-width="3px"/>
+</svg>
