@@ -1,5 +1,5 @@
 body {
-  background-color: #585d85;
+  background-color: #5c6479;
   color: #06091f;
   text-align: center;
 }
@@ -9,4 +9,7 @@ h1 {
 }
 img {
   display: block;
+}
+p {
+  color: #cbd2e0;
 }
