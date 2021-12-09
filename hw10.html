@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JSON for CNIT 131A</title>
+      <meta charset="utf-8">
+      <meta name="description" content="learning about json">
+      <link rel="stylesheet" href="css/hw10.css">
+  </head>
+<body>
+<h1>Homework 10</h1>
+<h2>Question:</h2>
+<p>
+   Suppose you have the following code in JavaScript (recognize the data being passed to the variable in JSON format) - the var statement is just to declare the variable called friends</p>
+<p>
+var friends = [{
+     "name": "John",
+     "age": "28",
+     "gender": "male",
+     "profession": "sales rep"
+},
+{
+     "name": "Maryenne",
+     "age": "26",
+     "gender": "female",
+     "profession": "web developer"
+}];
+</p><p>
+Then, later in the program, that variable friends (that looks like an array, right?) is used to write some data in a table. So, if you see the following command in this same JavaScript code, that is referring to the above JSON structure, what will be the content of the variable tablecell1? Remember, the var statement is only declaring the tablecell1 variable!<br>
+
+var tablecell1 = '&lt;tr>&lt;td>' + friends[0].name + '&lt;/td>&lt;td>' + friends[0].profession + '&lt;/td>&lt;/tr>'
+</p>
+<h3>Answer:</h3>
+<p>
+  tablecell1 = '&lt;tr>&lt;td>John&lt;/td>&lt;td>sales rep&lt;/td>&lt;/tr>'
+  <br>
+  The contents that the javascript reffered to in the array friends were the string John and the string sales rep
+  <table>
+    <th>Name</th>
+    <th>Profession</th>
+    <tr><td>John</td><td>Sales rep</td></tr>
+  </table>
+</p>
+<h4>JSON File</h4>
+<a href="hw10.json" target="_blank" rel="noopener">Homework 10 Json file</a>
+</body>
+
+  </html>
